@@ -2,29 +2,12 @@
 
 <html lang="en">
 	<head>
-		<!-- meta tags not neccesary -->
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta http-equiv="X-UA-Compatible" content="ie-edge">
-		
-		<title>About</title>
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+		<title>About - Hadrosaur Productions</title>
+		<?php include "metadata.php" ?>
 	</head>
 	
 	<body style="padding-top: 70px">
-		<div class="container-fluid">
-			<nav class="navbar navbar-expand bg-dark fixed-top">
-				<a href="./index.html" class="navbar-brand text-light">Hadrosaur Productions</a>
-				
-				<ul class="navbar-nav ml-auto">
-					<li class="nav-item"><a href="./about.html" class="nav-link text-light">About</a></li>
-					<li class="nav-item"><a href="" class="nav-link text-light">Novels</a></li>
-					<li class="nav-item"><a href="" class="nav-link text-light">Short Stories</a></li>
-					<li class="nav-item"><a href="" class="nav-link text-light">Audiobooks</a></li>
-					<li class="nav-item"><a href="./contact.html" class="nav-link text-light">Contact</a></li>
-				</ul>
-			</nav>
-		</div>
+		<?php include("navbar.php");?>
 		
 		<div class="container">
 			<div class="row">
@@ -90,9 +73,7 @@
 		</div>
 		
 		<br>
-		<div class="container-fluid bg-dark py-2">
-			<p class="text-light">Copyright 2018 Hadrosaur Productions</p>
-		</div>
+		<?php include "footer.php";?>
 	
 	</body>
 	
